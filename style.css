@@ -2,51 +2,35 @@
    font-family: 'Lato', sans-serif; font-size: 1em;}
 
 
-   .container { 
-    width: 100%;
-    margin: 0 auto;
+ 
+
+    [class*="col-"] { 
+    padding: 15px;
     }
 
-  .grid-1 {
-    display: grid;
-    width: 100%;
-    max-width: 100%;
-    margin: 0 auto;
-    grid-template-columns: repeat(12, 1fr);
-    grid-gap: 20px;
-  }
-  
-  /* items */
-  
-  .grid-1 div {
-    color: white;
-    font-size: 20px;
-    padding: 10px;
-    }
-  
-  /* specific item styles */
-  
+    [class*="row-"] { 
+      display: grid;
+      width: 100%;
+      max-width: 100%;
+      margin: 20px 0 0 0;
+      grid-gap: 20px;
+      }
+ 
+/* filas 1 */
+
   .row-1 {
+    
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  .col-1 {
     background: #b03532;
   }
-  
-  .grid-2 {
-    display: grid;
-    width: 100%;
-    max-width: 100%;
-    margin-top: 20px;
+
+  .row-2 {
     grid-template-columns: repeat(6, 1fr);
-    grid-gap: 20px;
   }
   
-  /* items */
-  
-  .grid-2 div {
-    color: white;
-    font-size: 20px;
-    padding: 10px;
-    }
-
-    .row-2 {
-        background: #b03532;
-      }
+  .col-2 {
+     background: #b03532;
+  }
