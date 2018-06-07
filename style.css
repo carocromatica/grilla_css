@@ -34,3 +34,27 @@
   .col-2 {
      background: #b03532;
   }
+
+  .row-3 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .col-3 {
+     background: #b03532;
+  }
+
+  .row-4 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .col-4 {
+     background: #b03532;
+  }
+
+  .row-5 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .col-5 {
+     background: #b03532;
+  }
